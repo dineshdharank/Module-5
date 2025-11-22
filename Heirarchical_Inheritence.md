@@ -48,7 +48,7 @@ class Details:
         print("Name: ", self.__name)
         print("Gender: ", self.__gender)
 
-class Employee(Details): #Inheritance
+class Employee(Details): 
     def __init__(self):
         self.__company="<No Company>"
         self.__dept="<No Dept>"
@@ -61,7 +61,7 @@ class Employee(Details): #Inheritance
         print("Hospital: ", self.__company)
         print("Department: ", self.__dept)
 
-class Patient(Details): #Inheritance
+class Patient(Details): 
     def __init__(self):
         self.__hospital="<No Hospital>"
         self.__dept="<No Dept>"
